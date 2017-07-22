@@ -1,0 +1,14 @@
+<h2>quote by <%= name %></h2>
+<!--
+<blockquote >
+<%= quote %> / <%= date %>
+</blockquote> -->
+
+<ul>
+    <% for(var i=0; i<quote.length; i++) { %>
+        <li>
+
+            <%= quote[i]%> / <%= date[i] %>
+        </li>
+    <% } %>
+</ul>
